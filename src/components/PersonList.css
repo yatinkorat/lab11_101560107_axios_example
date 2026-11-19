@@ -1,0 +1,75 @@
+body {
+    background-color: #ffffff;
+}
+
+.user-header {
+    background-color: #28a745;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 10px 7px 10px;
+    font-size: 22px;
+    font-weight:500
+}
+
+.user-card {
+    background-color: #17a2b8;
+    margin: 7px 10px;
+}
+
+.user-card-header {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.user-card-body {
+    display: flex;
+    align-items: flex-start;
+    min-height: 245px;
+    padding: 15px;
+}
+
+.user-left {
+    width: 145px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.user-image {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-button {
+    display: block;
+    margin: 10px auto 0;
+    font-size: 12px;
+    padding: 3px 8px;
+}
+
+.user-details {
+    flex: 1;
+    padding-top: 0;
+    font-size: 12px;
+}
+
+.detail-row {
+    display: grid;
+    grid-template-columns: 155px 1fr;
+    align-items: center;
+    min-height: 23px;
+}
+
+.detail-label {
+    text-align: right;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+.username-value {
+    font-weight: bold;
+}
